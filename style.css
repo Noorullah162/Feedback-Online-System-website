@@ -1,0 +1,192 @@
+body{
+    margin: 0px;
+    background: #f2f2f2;
+}
+
+
+.body-header{
+    background-color: #16181d;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#logo{
+    height: 5rem;
+    width : 5rem;
+    position: relative;
+    padding: 1.5% 1% 1% 1%;
+}
+
+#logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.header-title{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0%;
+    padding-left: 2%;
+    color: white;
+
+}
+
+
+
+.login{
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    border-radius:20px;
+    padding: 20px;
+    margin: 50px auto;
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+    /*
+    width: 35%;
+    margin: 10% auto;
+    text-align: center;
+    padding: 20px 0 0 0;
+    border-radius: 4px;
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;*/
+}
+/*
+.login-icon{
+    height: 3rem;
+    width : 3rem;
+    position: relative;
+    padding: 1.5% 1% 1% 1%;
+    background-color: red;
+}
+
+.login-icon i{
+    height: 100%;
+    width: 100%;
+}*/
+
+.a{
+    height: 40px;
+    width: 50px;
+    background-color: black;
+}
+
+
+.login-form {
+  padding: 0 60px;
+  margin: 10px auto;
+}
+
+input[type=text],input[type=password]
+{
+outline:none;
+border-radius:5px;
+border: 2px solid #ccc;
+box-sizing: border-box;
+width:300px;
+height:40px;
+font-size:18px;
+font-family: 'Gentona';
+}
+
+input[type=text]:focus,input[type=password]:focus {
+  border: 2px solid rgba(0, 0, 225, .5);
+}
+
+.submit{
+            padding: 10px 60px;
+            margin: 10px;
+            border-radius: 40px;
+            border: none;
+            font-size: 20px;
+            background-color: rgba(0, 0, 225, .5);
+            color: #fff;
+}
+
+.submit:hover {
+            background-color: rgba(0, 0, 225, 1.0);
+}
+
+.submit:active{
+background-color: rgba(0, 0, 225, 0.6);
+}
+
+
+.year{
+    padding: 10px 40px;
+    margin: 10px;
+    
+    border: none;
+    font-size: 20px;
+    color: black;
+
+   background-color:  #f2f2f2;
+  
+  text-align: center;
+  text-decoration: none;
+  
+  border-radius:12px;
+  cursor:pointer;
+  font-family: 'Gentona';
+  
+}
+
+.year:focus{
+     background-color: rgba(0, 0, 225, 0.6);
+     color: white;
+}
+
+.branch{
+     padding: 10px 50px;
+    margin: 10px;
+    
+    border: none;
+    font-size: 20px;
+    color: black;
+
+   background-color:  #f2f2f2;
+  
+  text-align: center;
+  text-decoration: none;
+  
+  border-radius:12px;
+  cursor:pointer;
+  font-family: 'Gentona';
+  
+  
+}
+
+.branch:focus{
+     background-color: rgba(0, 0, 225, 0.6);
+     color: white;
+}
+
+
+.Semester{
+     padding: 10px 50px;
+    margin: 10px;
+    
+    border: none;
+    font-size: 20px;
+    color: black;
+
+   background-color:  #f2f2f2;
+  
+  text-align: center;
+  text-decoration: none;
+  
+  border-radius:12px;
+  cursor:pointer;
+  font-family: 'Gentona';
+  
+  
+}
+
+.Semester:focus{
+     background-color: rgba(0, 0, 225, 0.6);
+     color: white;
+}
+
+

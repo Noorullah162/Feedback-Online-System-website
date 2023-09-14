@@ -1,0 +1,11 @@
+.headerad{
+	background-color: black;
+	display: flex;
+
+}
+.btn{
+	margin-left: 80px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 100px;
+}

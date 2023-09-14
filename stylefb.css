@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    background: #f2f2f2;
+}
+
+h1{
+text-align: center;
+}
+
+.card{
+border: 1px solid black;
+height: 400px;
+width: 550px;
+margin-top: 100px;
+margin-left: 300px;
+
+}
+
+.card-header{
+border: 1px solid black;
+height: 200px;
+width: 500px;
+position: relative;
+display: flex;
+flex-direction: row;
+margin: 10px 10px 10px 10px;
+}
+
+.photo{
+height: 10rem;
+width: 10rem;
+border: 1px solid black;
+margin: 10px 0px 10px 20px;
+}
+
+.details{
+height: 8rem;
+width: 20rem;
+border: 1px solid black;
+margin: 12px 0px 0px 10px;
+padding: 30px 0px 0px 10px;
+font-size: 1.2rem;
+color: black;
+}
+
+.span-details{
+margin: 10px 10px 10px 10px;
+
+}
+
+
+.feedback_submit{
+	width: 50%;
+	font-size: 25px;
+	border-radius: 30px;
+	color: white;
+	font-weight: bold;
+	background-color: dodgerblue;
+	border: none;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	margin-left: 40px;
+	height: 20%;
+	padding: 20px 20px 20px 20px;
+}
